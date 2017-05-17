@@ -1,0 +1,18 @@
+# Folder Structure
+|---public
+|------index.html # App entry
+|------style.css # Custom style
+|------bundle.js # Generated
+|---src # Components live here
+|------car
+|---------car.component.jsx
+|---------car-detail.component.jsx
+|------common
+|---------about.component.jsx
+|---------home.component.jsx
+|---------main.component.jsx
+|------index.jsx # Build entry
+|---.babelrc # Babel config file
+|---index.js
+|---package.json
+|---webpack.config.js # Webpack config gile
